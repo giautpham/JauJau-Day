@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
-<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141719"/><stop offset="1" stop-color="#535353"/></linearGradient><linearGradient id="face"><stop stop-color="#222"/><stop offset=".5" stop-color="#b0b0b0"/><stop offset="1" stop-color="#343434"/></linearGradient><radialGradient id="flash"><stop stop-color="#ffbbc0"/><stop offset=".2" stop-color="#f0454a"/><stop offset="1" stop-color="#ed2b39" stop-opacity="0"/></radialGradient></defs>
-<rect width="800" height="800" fill="url(#b)"/><path d="M0 0 800 800M800 0 0 800" stroke="#9c9c9c" stroke-opacity=".1" stroke-width="2"/>
-<g opacity=".65" transform="translate(-165,50)"><ellipse cx="430" cy="380" rx="168" ry="229" fill="url(#face)"/><path d="M278 392q65-39 120 4m72-4q50-32 91 0" stroke="#282828" stroke-width="14" fill="none"/><path d="M350 489q81 49 135-3" stroke="#2a2a2a" stroke-width="16" fill="none"/></g>
-<g opacity=".75" transform="translate(155,38)"><ellipse cx="430" cy="380" rx="168" ry="229" fill="url(#face)"/><path d="M278 392q65-39 120 4m72-4q50-32 91 0" stroke="#282828" stroke-width="14" fill="none"/><path d="M350 489q81 49 135-3" stroke="#2a2a2a" stroke-width="16" fill="none"/></g>
-<ellipse cx="402" cy="394" rx="168" ry="229" fill="url(#face)"/><path d="M251 406q66-37 125 4m75-4q53-34 94 0" stroke="#282828" stroke-width="14" fill="none"/><path d="M323 504q80 51 138-4" stroke="#272727" stroke-width="16" fill="none"/>
-<circle cx="496" cy="374" r="145" fill="url(#flash)"/><path d="M360 374h273m-137-137v273M403 284l186 186M589 284 403 470" stroke="#ff4b53" stroke-width="4" opacity=".95"/>
-<text x="42" y="67" font-family="Georgia,serif" font-size="43" fill="#f5eee9">TAM DIỆN NHẤT THỂ</text><text x="45" y="765" font-family="Arial,sans-serif" font-size="22" fill="#e7b4b4" letter-spacing="6">THREE VOICES / ONE SELF</text>
-</svg>
