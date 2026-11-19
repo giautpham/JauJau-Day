@@ -16,7 +16,9 @@
   const volumeIcon = document.getElementById('volumeIcon');
   let selected = null;
   let currentSlug = null;
-  const defaultTitle = config.name || 'My Vinyl Journal';
+  const defaultTitle = 'Tự trào văn đoàn'; // Keep public branding consistent even if private-editor config is older.
+  const trackCount = document.querySelector('.player-topline > span:last-child');
+  if (trackCount) trackCount.textContent = posts.length ? `001 — ${String(posts.length).padStart(3, '0')}` : '000 — 000';
 
   const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
   const formatInline = input => escapeHTML(input).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*([^*]+)\*/g,'<em>$1</em>');
@@ -52,7 +54,7 @@
      <section class="archive-section"><div class="section-header"><h2>From the archive <span aria-hidden="true">✳</span></h2><span>Latest notes &nbsp; / &nbsp; ${posts.length} total</span></div>
        <nav class="posts-list" aria-label="Danh sách bài viết">${posts.length?posts.map(postRow).join(''):'<p>Chưa có bài viết nào.</p>'}</nav>
        <div class="bottom-message">A tiny corner of the internet, pressed onto vinyl.</div>
-       <p class="empty-note">Chọn tên một bài viết để mở bài và nghe bản nhạc của riêng bài đó. Số lượt xem đang là số hiển thị thủ công.</p>
+
      </section>`;
   }
   function renderArticle(post) {

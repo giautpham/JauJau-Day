@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f1ea">
   <meta name="description" content="TỰ TRÀO VĂN ĐOÀN — một góc đọc, một đoạn nhạc, một câu chuyện.">
-  <title>TỰ TRÀO VĂN ĐOÀN — Viết Chuyện Thiên Hạ, Cười Chuyện Bản Thân.</title>
+  <title>Tự trào văn đoàn — Giau · Stories & Soundtracks</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=ttvd-giau-1">
   <!-- The article list and artwork are always loaded from the owner's data/posts.js.
        This cache-busting URL lets new GitHub commits appear after a page refresh. -->
   <script type="module">
@@ -19,7 +19,7 @@
       if (!Array.isArray(window.BLOG_POSTS)) {
         throw new Error('data/posts.js did not provide BLOG_POSTS');
       }
-      await import('./app.js');
+      await import('./app.js?v=ttvd-giau-1');
     } catch (error) {
       console.error('JauJau-Day could not load its blog content:', error);
       const content = document.getElementById('mainContent');
@@ -38,11 +38,14 @@
 <body>
   <div class="page-wrap">
     <header class="site-topbar">
-      <a class="brandmark" href="#/" aria-label="TỰ TRÀO VĂN ĐOÀN — Trang chủ">
-        <span class="brand-icon" aria-hidden="true">✳</span>
-        <span class="brand-wordmark">TSVĐ<span class="brand-period">.</span></span>
+      <a class="brandmark" href="#/" aria-label="Giau — Tự trào văn đoàn, về trang chủ">
+        <span class="brand-icon" aria-hidden="true"><span class="brand-monogram">G</span><span class="brand-icon-star">✦</span></span>
+        <span class="brand-lockup">
+          <span class="brand-wordmark">Giau<span class="brand-period">.</span></span>
+          <span class="brand-submark">TTVĐ <span aria-hidden="true">/</span> TỰ TRÀO VĂN ĐOÀN</span>
+        </span>
       </a>
-      <p class="topbar-center">Viết Chuyện Thiên Hạ, Cười Chuyện Bản Thân</p>
+      <p class="topbar-center">VIẾT CHUYỆN THIÊN HẠ, CƯỜI CHUYỆN BẢN THÂN</p>
       <div class="topbar-right">
         <span class="topbar-edition">EST. 2026 &nbsp; / &nbsp; VOL. 01</span>
         <button type="button" class="theme-toggle" id="themeToggle" aria-label="Đổi giao diện sáng / tối" title="Đổi giao diện sáng / tối">
