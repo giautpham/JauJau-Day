@@ -39,7 +39,7 @@
     return `<a class="post-row ${active?'active':''}" href="${postLink(post)}" data-route="post" aria-label="Đọc ${escapeHTML(post.title)}">
       <span class="row-number">${String(i+1).padStart(2,'0')}</span>
       <span class="post-info"><strong class="post-row-title">${escapeHTML(post.title)}</strong><span class="post-row-sub">${escapeHTML(post.subtitle || 'Một bài viết, một câu chuyện, một bản nhạc.')}</span></span>
-      <span class="post-meta-right"><time>${escapeHTML(post.date)}</time><span class="post-count" title="Số lượt xem ghi thủ công, không phải bộ đếm thật">◉ ${escapeHTML(post.views || '—')} <span aria-hidden="true">· ${escapeHTML(post.time || '')}</span></span></span>
+      <span class="post-meta-right"><time>${escapeHTML(post.date)}</time><span class="post-count" title="">◉ ${escapeHTML(post.views || '—')} <span aria-hidden="true">· ${escapeHTML(post.time || '')}</span></span></span>
       <span class="row-arrow" aria-hidden="true">↗</span>
     </a>`;
   }
@@ -48,7 +48,7 @@
     root.innerHTML = `<section class="home-header">
        <div class="kicker">The Journal / Một góc nhỏ trên internet</div>
        <h1 class="home-title">${escapeHTML(defaultTitle.replace(/\.$/,''))}<span class="period">.</span></h1>
-       <p class="home-intro">${escapeHTML(config.tagline || 'Những câu chuyện nhỏ, những bài nhạc cũ. Đọc chậm thôi, cứ để chiếc đĩa xoay.')}</p>
+       <p class="home-intro">${escapeHTML(config.tagline || 'Chillax nha, để chiếc đĩa xoay.')}</p>
        <div class="home-heading-bottom"><div class="tiny-chips"><span class="chip"><b>✳</b> WORDS & SOUNDS</span><span class="chip"><b>${String(posts.length).padStart(2,'0')}</b> BÀI VIẾT</span></div><span class="home-private-note">JUST STORIES & SOUNDTRACKS ✳</span></div>
      </section>
      <section class="archive-section"><div class="section-header"><h2>From the archive <span aria-hidden="true">✳</span></h2><span>Latest notes &nbsp; / &nbsp; ${posts.length} total</span></div>
