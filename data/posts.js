@@ -89,8 +89,8 @@ window.BLOG_POSTS = [
     "date": "15/11/2026",
     "time": "04:26",
     "subtitle": "「The One Who Stands Above All」🥀⛩️",
-    "cover": "assets/covers/jaja.svg",
-    "audio": "assets/music/jaja.mp3",
+    "cover": "assets/covers/Ayanokoji.jpeg",
+    "audio": "assets/music/YOASOBI「群青」Official Music Video.mp3",
     "body": [
       "Có thể tụi m k biết t là ai, nhưng t cũng k biết ai là tụi m.",
       "T là 𝐉𝐀𝐉𝐀, tạo vật đầu tiên được sinh ra giữa đất trời. Khi thiên địa còn hỗn loạn, âm dương chưa phân định, Wifi chưa có mật khẩu và trời đất vẫn beta testing, t đã tồn tại.",
