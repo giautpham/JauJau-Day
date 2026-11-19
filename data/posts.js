@@ -75,10 +75,10 @@ window.BLOG_POSTS = [
       "Chuyện thật sự chẳng có gì đáng nói khi mình biết rằng việc mình được nhận vào làm TA là do cô Brianna của Phúc có hỏi Phúc về việc mình như thế nào bla bla bla và Phúc đã dành những lời khen có cánh cho mình. Nên mình cũng không muốn làm phụ lòng Phúc và cố gắng hoàn thành trách nhiệm của mình. Cảm ơn Phúc thêm 1 lần nữa!",
       "=)) Trời ơi dài dòng văn tự và lạc đề khiếp. Con xin lỗi cô Lài vì lối hành văn có phần lủng củng này, thật sự con chỉ muốn tường thuật mọi thứ th ạ!",
       "Thật sự thì 14h còn lại của ngày (từ 12h trưa đến 2h sáng) thì mình cũng chẳng có gì để làm cả. Phần lớn thời gian để suy nghĩ những thứ không đâu vào đâu, 1h để đi tắm (khoảng thời gian yêu thích nhất trong ngày btw), và phần còn lại để xem những vid youtube xàm xàm. Lâu lâu thì mình sẽ có sở thích random gì đấy thì cũng sẽ ngốn kha khá thời gian trong ngày của mình. Nếu các bạn thắc mắc tại sao mình không nhắc gì về việc ăn uống thì thật ra, trong 2 tuần qua, mình chỉ ăn đúng 1 tô chipotle cho buổi trưa và gọi nó là một ngày (call it a day) =))",
-      "Anyways mình xin cảm ơn mn vì đã dành tgian ra đọc cái blog xàm xàm này hihi. Mình xin được phép trích dẫn vài câu hát của bài A Day in Life của The Beatles (đơn giản là nó siu relatable đến một ngày của mình) trong lúc thằng admin chưa tìm được cách chèn nhạc cho bản beta này:"
-             "—Woke up, fell out of bed"
-                 "—Dragged a comb across my head"
-                     "—Found my way downstairs and drank a cup"
+      "Anyways mình xin cảm ơn mn vì đã dành tgian ra đọc cái blog xàm xàm này hihi. Mình xin được phép trích dẫn vài câu hát của bài A Day in Life của The Beatles (đơn giản là nó siu relatable đến một ngày của mình) trong lúc thằng admin chưa tìm được cách chèn nhạc cho bản beta này:",
+             "—Woke up, fell out of bed",
+                 "—Dragged a comb across my head",
+                     "—Found my way downstairs and drank a cup",
                             "—And looking up, I noticed I was late."
 
     ]
